@@ -7,7 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: #d81e5b;
+  --secondary: #8c34ff;
+  --dark: #131313;
+  --light: rgb(236, 202, 169);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+  background-color: rgb(86 86 86);
 }
